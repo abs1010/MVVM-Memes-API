@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2715E72A-08BB-4D8A-96DA-301516C8AE3C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42997664-D952-464A-9913-77B0E74411DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM/View/ViewController/MemeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getMeme()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42997664-D952-464A-9913-77B0E74411DE - afd3aac994212b1f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM.MemeViewController.(getMeme in _F19CC1866DF258E3AE7A921E147BBF2E)() -&gt; ()"
+                  moduleName = "MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alansilva/Documents/iOS/4-MVVM/MVVM/MVVM/View/ViewController/MemeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "42997664-D952-464A-9913-77B0E74411DE - d6f96f014d2f0fc6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in MVVM.MemeViewController.(getMeme in _F19CC1866DF258E3AE7A921E147BBF2E)() -&gt; ()"
+                  moduleName = "MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alansilva/Documents/iOS/4-MVVM/MVVM/MVVM/View/ViewController/MemeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81FB934B-A1E9-47D0-BE58-D6444E84BC01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM/View/ViewController/MemeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getMeme()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

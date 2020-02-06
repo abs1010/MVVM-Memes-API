@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Meme View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MemeViewController" id="BYZ-38-t0r" customClass="MemeViewController" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XDx-Z5-Fun">
+                                <rect key="frame" x="0.0" y="44" width="414" height="379"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDr-3b-xRn">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK1-i3-osH">
+                                <rect key="frame" x="20" y="841" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="iDr-3b-xRn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Zb-QB-d9A"/>
+                            <constraint firstItem="fK1-i3-osH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="C8M-6w-mIh"/>
+                            <constraint firstItem="iDr-3b-xRn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KOK-Qj-MhV"/>
+                            <constraint firstItem="XDx-Z5-Fun" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QaR-CJ-fID"/>
+                            <constraint firstItem="iDr-3b-xRn" firstAttribute="top" secondItem="XDx-Z5-Fun" secondAttribute="bottom" constant="10" id="buM-q2-Pdf"/>
+                            <constraint firstItem="XDx-Z5-Fun" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jMj-D9-eoV"/>
+                            <constraint firstItem="XDx-Z5-Fun" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mgO-JN-RwR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fK1-i3-osH" secondAttribute="trailing" constant="20" id="mgW-cX-s8N"/>
+                            <constraint firstItem="fK1-i3-osH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="u8R-fG-z1R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="fK1-i3-osH" id="01A-qM-sgB"/>
+                        <outlet property="btnPost" destination="iDr-3b-xRn" id="1OJ-KT-3eK"/>
+                        <outlet property="tableView" destination="XDx-Z5-Fun" id="29I-sZ-ICT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>
